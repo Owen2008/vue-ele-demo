@@ -1,0 +1,20 @@
+{
+  "name": "vue_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cube-ui": "~1.12.15"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-cube-ui": "^0.2.5"
+  },
+  "license": "MIT",
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/src/modules/${member}",
+      "kebabCase": true
+    }
+  }
+}
